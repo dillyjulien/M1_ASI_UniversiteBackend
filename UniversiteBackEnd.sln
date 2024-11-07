@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversiteDomain", "UniversiteDomain\UniversiteDomain.csproj", "{9C324ACE-D559-4056-B4B1-B6CA335E09EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversiteDomainTests", "UniversiteDomainTests\UniversiteDomainTests.csproj", "{BC22D973-F9E2-47A4-B296-30C17FE21985}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversiteDomainUnitTests", "UniversiteDomainUnitTests\UniversiteDomainUnitTests.csproj", "{2932CC79-6E6C-4D39-8021-547AF9C1D385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C324ACE-D559-4056-B4B1-B6CA335E09EA} = {3B4D9A2C-01AD-4FC2-8011-DE15268ED848}
-		{BC22D973-F9E2-47A4-B296-30C17FE21985} = {F77DB01B-95F4-4808-B4EA-9A410E6A3DFE}
+		{2932CC79-6E6C-4D39-8021-547AF9C1D385} = {F77DB01B-95F4-4808-B4EA-9A410E6A3DFE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9C324ACE-D559-4056-B4B1-B6CA335E09EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C324ACE-D559-4056-B4B1-B6CA335E09EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C324ACE-D559-4056-B4B1-B6CA335E09EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C324ACE-D559-4056-B4B1-B6CA335E09EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC22D973-F9E2-47A4-B296-30C17FE21985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC22D973-F9E2-47A4-B296-30C17FE21985}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC22D973-F9E2-47A4-B296-30C17FE21985}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC22D973-F9E2-47A4-B296-30C17FE21985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2932CC79-6E6C-4D39-8021-547AF9C1D385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2932CC79-6E6C-4D39-8021-547AF9C1D385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2932CC79-6E6C-4D39-8021-547AF9C1D385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2932CC79-6E6C-4D39-8021-547AF9C1D385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
