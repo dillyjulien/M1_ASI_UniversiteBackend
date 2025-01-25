@@ -2,7 +2,7 @@ namespace UniversiteDomain.Entities;
 
 public class Note
 {
-    public float Value { get; set; }
+    public double Value { get; set; }
     public long IdEtudiant { get; set; }
     public long IdUe { get; set; }
     public Etudiant Etudiant { get; set; }

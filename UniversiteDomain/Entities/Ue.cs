@@ -9,6 +9,9 @@ public class Ue
     // ManyToMany : une Ue est enseignée dnas plusieurs parcours
     public List<Parcours>? EnseigneeDans { get; set; } = new();
     
+    // ManyToMany : une Ue a une liste de note
+    public List<Note>? Notes { get; set; } = new();
+    
     public override string ToString()
     {
         return "ID "+Id +" : "+NumeroUe+" - "+Intitule;
