@@ -1,6 +1,7 @@
 using UniversiteDomain.DataAdapters;
 using UniversiteDomain.DataAdapters.DataAdaptersFactory;
 using UniversiteEFDataProvider.Data;
+using UniversiteEFDataProvider.Repositories;
 
 namespace UniversiteEFDataProvider.RepositoryFactories;
 
@@ -10,13 +11,14 @@ public class RepositoryFactory (UniversiteDbContext context): IRepositoryFactory
     private IEtudiantRepository? _etudiants;
     private IUeRepository? _ues;
     private INoteRepository? _notes;
-    
+
     public IParcoursRepository ParcoursRepository()
     {
         if (_parcours == null)
         {
             _parcours = new ParcoursRepository(context ?? throw new InvalidOperationException());
         }
+
         return _parcours;
     }
 

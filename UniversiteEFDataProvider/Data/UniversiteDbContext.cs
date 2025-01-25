@@ -36,7 +36,7 @@ public class UniversiteDbContext : DbContext
             .WithMany(p => p.Inscrits);
         // OneToMany vers Note
         modelBuilder.Entity<Etudiant>()
-            .HasMany(e => e.NotesObtenues)
+            .HasMany(e => e.Notes)
             .WithOne(n => n.Etudiant);
         
         // Propriétés de la table Parcours
@@ -70,11 +70,11 @@ public class UniversiteDbContext : DbContext
         // Propriétés de la table Note
         // Clé primaire composite
         modelBuilder.Entity<Note>()
-            .HasKey(n => new { n.EtudiantId, n.UeId });
+            .HasKey(n => new { n.IdEtudiant, n.IdUe });
         // ManyToOne vers Etudiant
         modelBuilder.Entity<Note>()
             .HasOne(n => n.Etudiant)
-            .WithMany(e => e.NotesObtenues);
+            .WithMany(e => e.Notes);
         // ManyToOne vers Ue
         modelBuilder.Entity<Note>()
             .HasOne(n => n.Ue)
